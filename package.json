@@ -1,0 +1,38 @@
+{
+  "name": "wetube-clone",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namukk/Wetube-clone.git"
+  },
+  "author": "Namuk Yoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Namukk/Wetube-clone/issues"
+  },
+  "homepage": "https://github.com/Namukk/Wetube-clone#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "milsymbol": "^2.0.0",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "nodemon": "^2.0.3"
+  },
+  "keywords": []
+}
